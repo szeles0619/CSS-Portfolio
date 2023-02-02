@@ -45,6 +45,7 @@ header nav a {
   color: rgb(107, 107, 107);
   margin: 20px;
   font-size: 30px;
+  background-color: aqua;
 }
 
 .page-wrapper {
@@ -100,3 +101,42 @@ h6 {
 p {
   margin: 0;
 }
+
+.project-one:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.project-two:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.project-three:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.project-four:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.project-five:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.project-one, 
+.project-two,
+.project-three,
+.project-four,
+.project-five {
+  border: solid 5px aqua;
+  margin: 20px 0px;
+}
+
+/* .project-title h3,p {
+  background-color: aqua; 
+}  */
+
