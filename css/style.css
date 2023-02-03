@@ -76,14 +76,21 @@ header nav a {
   font-size: 40px;
 }
 
-.section-content {
+/* .section-content {
   width: 70%;
-  padding-left: 50px;
-  margin: 5px 5px;
+  /* padding-left: 50px;
+  margin: 5px 5px; 
 }
 
-.section-content a {
+/* .section-content a {
   text-decoration: none;
+} */
+
+.aboutMe {
+  width: 70%;
+  padding-right: 10px;
+  margin: 5px;
+  text-align: right;
 }
 
 
@@ -139,12 +146,13 @@ p {
 .project-four,
 .project-five {
   border: solid 5px aqua;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   margin: 20px 0px;
 }
 
-.socialLinks {
+.social {
   text-decoration: underline;
+  color: aliceblue;
   font-size: 2rem;
   justify-content: space-evenly;
   padding: 0px 10px;
@@ -152,3 +160,64 @@ p {
   display: flex;
   flex: 75%;
 }
+
+.section-content {
+  display: grid;
+  grid-template-columns: 200px 250px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-gap: 20px;
+  grid-template-areas: 
+  'header header'
+  'sidebar content'
+  'sidebar content';
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.project-one {
+  grid-area: header;
+}
+
+.project-two {
+  grid-area: sidebar;
+}
+
+.project-three {
+  grid-area: content;
+}
+
+#firstProject {
+  grid-area: firstProject;
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+#secondProject {
+  grid-area: firstProject;
+  background-image: url(../images/02-portfolio-2.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+#thirdProject {
+  grid-area: firstProject;
+  background-image: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+#fourthProject {
+  grid-area: firstProject;
+  background-image: url(../images/02-portfolio-4.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+#fifthProject {
+  grid-area: firstProject;
+  background-image: url(../images/02-run-buddy.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
