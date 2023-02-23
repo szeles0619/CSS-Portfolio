@@ -12,6 +12,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployed website](#deployed-website)
 
 ## Installation
 
@@ -21,15 +22,14 @@ No installation needed.
 
 Once the page is loaded, you can use the links in the navbar and it will navigate you to the relevant field.
 
-```md
-    ![alt text](screenshots/css-portfolio-01.png)
-```
-```md
-    ![alt text](screenshots/css-portfolio-02.png)
-```
-```md
-    ![alt text](screenshots/css-portfolio-03.png)
-```
+## Deployed website
+
+<img width="959" alt="css-portfolio-01" src="https://user-images.githubusercontent.com/119215005/220924675-9a13f5b0-d840-42ed-a2a3-acae3ab03e74.png">
+
+<img width="960" alt="css-portfolio-02" src="https://user-images.githubusercontent.com/119215005/220924940-b2fdd2d8-670e-4566-b941-7479e2885209.png">
+
+<img width="960" alt="css-portfolio-03" src="https://user-images.githubusercontent.com/119215005/220925016-f8c24542-12c2-47db-bde7-6c173003e00c.png">
+
 
 
 Deployed website: https://szeles0619.github.io/CSS-Portfolio/
