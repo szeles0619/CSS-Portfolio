@@ -15,6 +15,7 @@ header {
 }
 
 header h1 {
+  font-size: 20px;
   width: 250px;
   margin-left: 20px;
   text-align: center;
@@ -27,11 +28,11 @@ header nav {
 }
 
 header nav a {
-  text-decoration: none;
-  color: cornsilk;
-  font-size: 2rem;
+  text-decoration: underline;
+  color: cornsilk; 
+  font-size: 15px;
   justify-content: space-between;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
 }
 
 .hero-banner {
@@ -48,12 +49,12 @@ header nav a {
 .hero-banner div h2 {
   color: rgb(107, 107, 107);
   margin: 20px;
-  font-size: 30px;
+  font-size: 20px;
   background-color:rgb(43, 221, 221);
 }
 
 #about p {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .page-wrapper {
@@ -77,7 +78,7 @@ header nav a {
 
 .section-title, a {
   color: rgb(68, 67, 67);
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* .section-content {
@@ -160,19 +161,18 @@ p {
 }
 
 .social {
-  text-decoration: underline;
-  color: aliceblue;
   font-size: 2rem;
   justify-content: space-evenly;
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
   flex-direction: row;
   display: flex;
-  flex: 75%;
+  /* flex: 75%; */
+  margin-left: 100px;
 }
 
 .section-content {
   display: grid;
-  grid-template-columns: 1000px 1000px;
+  grid-template-columns: 250px 500px;
   grid-auto-rows: 400px;
   grid-gap: 20px;
   grid-template-areas: 
