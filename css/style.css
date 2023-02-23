@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(168, 168, 168);
+}
+
 header {
   display: flex;
   align-items: center;
@@ -15,7 +19,7 @@ header h1 {
   margin-left: 20px;
   text-align: center;
   padding: 5px;
-  background-color: aqua;
+  background-color: rgb(43, 221, 221);
 }
 
 header nav {
@@ -45,7 +49,7 @@ header nav a {
   color: rgb(107, 107, 107);
   margin: 20px;
   font-size: 30px;
-  background-color: aqua;
+  background-color:rgb(43, 221, 221);
 }
 
 #about p {
@@ -111,6 +115,11 @@ h6 {
   margin: 0;
 }
 
+h3 {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
 p {
   margin: 0;
 }
@@ -163,8 +172,8 @@ p {
 
 .section-content {
   display: grid;
-  grid-template-columns: 200px 250px;
-  grid-auto-rows: minmax(150px, auto);
+  grid-template-columns: 1000px 1000px;
+  grid-auto-rows: 400px;
   grid-gap: 20px;
   grid-template-areas: 
   'header header'
@@ -176,47 +185,68 @@ p {
 
 .project-one {
   grid-area: header;
+  background-image: url(/images/02-portfolio-1.jpg);
 }
 
 .project-two {
   grid-area: sidebar;
+  background-image: url(/images/02-portfolio-2.jpg);
 }
 
 .project-three {
   grid-area: content;
+  background-image: url(/images/02-portfolio-3.jpg);
+}
+
+.project-four {
+  background-image: url(/images/02-portfolio-4.jpg);
+}
+
+.project-five {
+  background-image: url(/images/02-run-buddy.jpg);
 }
 
 #firstProject {
   grid-area: firstProject;
-  background-image: url(../images/02-portfolio-1.jpg);
+  /* background-image: url(../images/02-portfolio-1.jpg); */
+  background-color: aqua;
+  width: 100px;
   background-size: cover;
   background-position: top;
 }
 
 #secondProject {
   grid-area: firstProject;
-  background-image: url(../images/02-portfolio-2.jpg);
+  /* background-image: url(../images/02-portfolio-2.jpg); */
+  background-color: aqua;
+  width: 150px;
   background-size: cover;
   background-position: top;
 }
 
 #thirdProject {
   grid-area: firstProject;
-  background-image: url(../images/02-portfolio-3.jpg);
+  /* background-image: url(../images/02-portfolio-3.jpg); */
+  background-color: aqua;
+  width: 100px;
   background-size: cover;
   background-position: top;
 }
 
 #fourthProject {
   grid-area: firstProject;
-  background-image: url(../images/02-portfolio-4.jpg);
+  /* background-image: url(../images/02-portfolio-4.jpg); */
+  background-color: aqua;
+  width: 100px;
   background-size: cover;
   background-position: top;
 }
 
 #fifthProject {
   grid-area: firstProject;
-  background-image: url(../images/02-run-buddy.jpg);
+  /* background-image: url(../images/02-run-buddy.jpg); */
+  background-color: aqua;
+  width: 100px;
   background-size: cover;
   background-position: top;
 }
